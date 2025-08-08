@@ -1,17 +1,24 @@
+![RoommateFinder Screenshot](https://i.postimg.cc/z3ZVcWr4/Screenshot-234.png)
+
+---
+
 # 🏠 RoommateFinder
 
 ## 🌐 Live Site
+
 🔗 [https://roommatefinder0.netlify.app/](https://roommatefinder0.netlify.app/)
 
 ---
 
 ## 🚀 Project Overview
+
 Roommate Finder is a platform that helps users find compatible roommates based on location, budget, lifestyle preferences, and interests.  
 Users can create profiles, browse listings, add their own posts, and connect with potential roommates.
 
 ---
 
 ## ✨ Features
+
 - 🔐 **User Authentication:** Email/password and Google OAuth login & registration.
 - 🚧 **Protected Routes:** Add Listing, Details, Update, My Listings pages are accessible only when logged in.
 - 📝 **CRUD Operations:** Users can create, view, update, and delete their roommate posts.
@@ -26,6 +33,7 @@ Users can create profiles, browse listings, add their own posts, and connect wit
 ---
 
 ## 🛠 Technologies Used
+
 - React 19
 - Vite
 - Firebase Authentication
@@ -39,12 +47,21 @@ Users can create profiles, browse listings, add their own posts, and connect wit
 
 ---
 
-## Run Locally
 
-Clone the project
+## 🛠️ Run Locally
+
+Follow these steps to set up **RoommateFinder** on your local machine:
 
 ```bash
-git https://github.com/JanayedHossain/roommate-finder.git
+# 1️⃣ Clone the repository
+git clone https://github.com/JanayedHossain/RoommateFinder-Client.git
 
+# 2️⃣ Install dependencies
+npm install
 
-```
+# 3️⃣ Create a .env file in the root directory and add your environment variables
+VITE_API_KEY=your_api_key
+VITE_API_URL=your_api_url
+
+# 4️⃣ Start the development server
+npm run dev
